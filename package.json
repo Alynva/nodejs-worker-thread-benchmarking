@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-worker-thread-benchmarking",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "example": "node src/simple-example.mjs",
+    "fibonacci": "node src/fibonacci.mjs 64 25",
+    "fibonacci1": "node src/fibonacci.mjs 64 25 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^3.1.1"
+  }
+}
